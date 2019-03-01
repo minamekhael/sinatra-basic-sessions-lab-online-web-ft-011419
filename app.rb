@@ -7,7 +7,7 @@ class App < Sinatra::Base
     set :session_secret, "secret"
   end
   
-before do 
+  before do 
       content_type :txt
   end
 
